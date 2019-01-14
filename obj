@@ -1,0 +1,4 @@
+Drive service = new Drive.Builder(httpTransport, jsonFactory, null)
+                  .setHttpRequestInitializer(credential)
+                  .setApplicationName("Your app name")
+                  .build();
